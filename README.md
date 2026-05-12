@@ -12,7 +12,7 @@ A production-grade, privacy-first rule-based chatbot designed for the logistics 
 
 ## Project Structure
 
-\`\`\`text
+```text
 securetrack_chatbot/
 ├── data/               # SQLite database storage (git-ignored)
 ├── src/                # Main application code
@@ -23,31 +23,31 @@ securetrack_chatbot/
 │   └── app.py          # Streamlit UI entry point
 ├── tests/              # Pytest suite
 └── README.md
-\`\`\`
+```
 
 ## 🛠️ Setup & Installation
 
 **1. Clone the repository:**
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/securetrack-chatbot.git
 cd securetrack-chatbot
-\`\`\`
+```
 
 **2. Install dependencies:**
-\`\`\`bash
+```bash
 pip install streamlit
-\`\`\`
+```
 
 **3. Initialize the database:**
 This will create the `securetrack.db` file with WAL mode enabled and seed it with initial tracking and rate data.
-\`\`\`bash
+```bash
 python src/database/init_db.py
-\`\`\`
+```
 
 **4. Run the application:**
-\`\`\`bash
+```bash
 streamlit run src/app.py
-\`\`\`
+```
 
 ---
 *Classification: Portfolio Project | Version: 1.0*
