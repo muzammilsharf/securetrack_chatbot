@@ -1,0 +1,1 @@
+# Returns hardcoded agent prompt

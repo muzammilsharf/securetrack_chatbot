@@ -1,0 +1,1 @@
+# SQLite connection setup (Applies WAL mode & busy_timeout)

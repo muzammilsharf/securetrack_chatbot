@@ -1,0 +1,1 @@
+# Input length cap, uppercasing, whitespace stripping

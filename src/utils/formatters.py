@@ -1,0 +1,1 @@
+# Assembles query results into formatted strings/cards

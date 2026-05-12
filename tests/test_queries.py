@@ -1,0 +1,1 @@
+# Tests SQL injection safety
