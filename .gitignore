@@ -1,4 +1,11 @@
-/data/*
-.db, 
-__pycache__
-.env
+# Databases
+data/*.db
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
